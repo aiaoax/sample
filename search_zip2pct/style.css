@@ -1,0 +1,20 @@
+﻿.clr {
+	float: none;
+}
+
+@media screen and (min-width:1024px) {
+	.demo {
+		background-color: #ccc;
+		display: inline-block;
+		vertical-align: top;
+		padding: 2px;
+	}
+}
+
+@media screen and (max-width:1023px) {
+	
+	.demo {
+		background-color: #ccc;
+		padding: 2px;
+	}
+}
